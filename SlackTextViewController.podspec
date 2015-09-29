@@ -14,6 +14,5 @@ Pod::Spec.new do |s|
   s.platform     		= :ios, "7.0"
   s.requires_arc 		= true
 
-  s.header_mappings_dir = 'Source'
   s.source_files 		= 'Source/**/*.{h,m}'
 end
